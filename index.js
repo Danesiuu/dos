@@ -1,4 +1,4 @@
-const { Telegraf, Markup } = require('telegraf');
+pconst { Telegraf, Markup } = require('telegraf');
 const { exec } = require('child_process');
 const util = require('util');
 const execPromise = util.promisify(exec);
